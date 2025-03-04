@@ -339,6 +339,39 @@ section {
     background: rgba(155, 151, 149, 0.15);
 }
 
+.footer {
+    background: var(--main-color);
+    text-align: center;
+}
+
+.footer .redes {
+    padding: 1rem 0;
+}
+
+.footer .redes a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #000000;
+    border: 2px solid #000000;
+    margin: 3rem;
+    border-radius: 50%;
+}
+
+.footer .redes a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer .creditos{
+    font-size: 1.5rem;
+    color: black ;
+    padding: 1.5rem;
+}
+
+.footer .creditos span{
+    color: #ffffff;
+}
 
 @media(max-width:991px) {
 
@@ -405,7 +438,7 @@ section {
         font-size: 1.5rem;
     }
 
-    .home .contenido{
+    .home .contenido {
         max-width: 35rem;
         min-height: 150px;
         height: auto;
@@ -427,7 +460,7 @@ section {
         font-size: 1.5rem;
     }
 
-    .vision .contenido{
+    .vision .contenido {
         max-width: 35rem;
         min-height: 150px;
         height: auto;
@@ -471,7 +504,7 @@ section {
         font-size: 1.5rem;
     }
 
-    .objetivos .contenido{
+    .objetivos .contenido {
         max-width: 35rem;
         min-height: 150px;
         height: auto;
