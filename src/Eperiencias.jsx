@@ -1,0 +1,1 @@
+export const Experiencias=()=>{return <h1>Holaaa</h1>}
