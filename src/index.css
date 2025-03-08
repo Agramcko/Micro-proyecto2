@@ -157,7 +157,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(public/Imagenes/CAMPUS-2024-1.jpg) no-repeat;
+    background: url(/Imagenes/CAMPUS-2024-1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -222,7 +222,7 @@ section {
     min-height: 45vh;
     display: flex;
     align-items: center;
-    background: url(public/Imagenes/panorama.webp) no-repeat;
+    background: url(/Imagenes/panorama.webp) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -259,7 +259,7 @@ section {
     min-height: 45vh;
     display: flex;
     align-items: center;
-    background: url(public/Imagenes/Jardin.jpg) no-repeat;
+    background: url(/Imagenes/Jardin.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -298,7 +298,7 @@ section {
     min-height: 45vh;
     display: flex;
     align-items: center;
-    background: url(public/Imagenes/panorama2.webp) no-repeat;
+    background: url(/Imagenes/panorama2.webp) no-repeat;
     background-size: cover;
     background-position: center;
 }
