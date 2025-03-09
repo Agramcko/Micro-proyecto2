@@ -95,14 +95,46 @@ section {
     padding-bottom: .5rem;
 }
 
-.header .icons div {
+.icons {
     color: #000000;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 0 10px;
 }
 
-.header .icons div:hover {
+.icons .fa-search {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 0 10px;
+}
+
+.icons .fa-user {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 0 10px;
+}
+
+.icons .fa-bars {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 0 10px;
+}
+
+
+.header .icons :hover {
     color: rgb(255, 255, 255);
 }
 
