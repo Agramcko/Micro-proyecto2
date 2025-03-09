@@ -1,6 +1,7 @@
-import React from 'react';
+import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faBars, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faUser, faBars } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 export const Home = () => {
 
   return (
@@ -106,11 +107,19 @@ export const Home = () => {
       </section>
 
       <section className="footer">
-        <div className="redes">
-          <a href="#" className="fab fa-facebook-f"></a>
-          <a href="#" className="fab fa-twitter"></a>
-          <a href="#" className="fab fa-youtube"></a>
-          <a href="#" className="fab fa-instagram"></a>
+      <div className="redes">
+            <a href="#" className="fab fa-facebook-f">
+                <FontAwesomeIcon icon={faFacebookF} />
+            </a>
+            <a href="#" className="fab fa-twitter">
+                <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a href="#" className="fab fa-youtube">
+                <FontAwesomeIcon icon={faYoutube} />
+            </a>
+            <a href="#" className="fab fa-instagram">
+                <FontAwesomeIcon icon={faInstagram} />
+            </a>
         </div>
 
         <div className="creditos">
