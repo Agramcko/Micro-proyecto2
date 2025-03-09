@@ -109,17 +109,13 @@ export const Home = () => {
       <section className="footer">
       <div className="redes">
             <a href="#" className="fab fa-facebook-f">
-                <FontAwesomeIcon icon={faFacebookF} />
-            </a>
+                <FontAwesomeIcon icon={faFacebookF} id='facebook'/></a>
             <a href="#" className="fab fa-twitter">
-                <FontAwesomeIcon icon={faTwitter} />
-            </a>
+                <FontAwesomeIcon icon={faTwitter} /></a>
             <a href="#" className="fab fa-youtube">
-                <FontAwesomeIcon icon={faYoutube} />
-            </a>
+                <FontAwesomeIcon icon={faYoutube} /></a>
             <a href="#" className="fab fa-instagram">
-                <FontAwesomeIcon icon={faInstagram} />
-            </a>
+                <FontAwesomeIcon icon={faInstagram} /></a>
         </div>
 
         <div className="creditos">
