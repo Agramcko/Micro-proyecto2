@@ -49,7 +49,7 @@ export const Home = () => {
             <img src="Imagenes/AvilaTours.png" alt="Foto de logo" className="imagenlogo" />
           </a>
           <nav className="navbar">
-            <a href="home.jsx">Inicio</a>
+            <a href="/Home">Inicio</a>
             <a href="">Experiencias</a>
             <a href="#Destinos">Destinos</a>
             <a href="#Reservas">Reservas</a>
