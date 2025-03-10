@@ -52,7 +52,7 @@ export const Home = () => {
 
         <div className="icons">
           <FontAwesomeIcon icon={faSearch} className="fas fa-search -bnt" id="search-btn" />
-          <FontAwesomeIcon icon={faUser} className="fas fa-user -bnt" id="user-btn" />
+          <FontAwesomeIcon icon={faUser} className="fas fa-user -bnt" id="user-btn"/>
           <FontAwesomeIcon icon={faBars} className="fas fa-bars -bnt" id="menu-btn" />
         </div>
 
