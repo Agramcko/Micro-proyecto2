@@ -1,8 +1,40 @@
 import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useEffect } from 'react';
+
 export const Home = () => {
+  useEffect(() => {
+    const navbar = document.querySelector('.navbar');
+    const searchForm = document.querySelector('.search-form');
+    const menuBtn = document.querySelector('#menu-btn');
+    const searchBtn = document.querySelector('#search-btn');
+
+    const handleMenuClick = () => {
+      navbar.classList.toggle('active');
+      searchForm.classList.remove('active');
+    };
+
+    const handleSearchClick = () => {
+      searchForm.classList.toggle('active');
+      navbar.classList.remove('active');
+    };
+
+    const handleScroll = () => {
+      navbar.classList.remove('active');
+      searchForm.classList.remove('active');
+    };
+
+    menuBtn.addEventListener('click', handleMenuClick);
+    searchBtn.addEventListener('click', handleSearchClick);
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      menuBtn.removeEventListener('click', handleMenuClick);
+      searchBtn.removeEventListener('click', handleSearchClick);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -107,15 +139,15 @@ export const Home = () => {
       </section>
 
       <section className="footer">
-      <div className="redes">
-            <a href="#" className="fab fa-facebook-f">
-                <FontAwesomeIcon icon={faFacebookF} id='facebook'/></a>
-            <a href="#" className="fab fa-twitter">
-                <FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#" className="fab fa-youtube">
-                <FontAwesomeIcon icon={faYoutube} /></a>
-            <a href="#" className="fab fa-instagram">
-                <FontAwesomeIcon icon={faInstagram} /></a>
+        <div className="redes">
+          <a href="#" className="fab fa-facebook-f">
+            <FontAwesomeIcon icon={faFacebookF} id='facebook' /></a>
+          <a href="#" className="fab fa-twitter">
+            <FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="#" className="fab fa-youtube">
+            <FontAwesomeIcon icon={faYoutube} /></a>
+          <a href="#" className="fab fa-instagram">
+            <FontAwesomeIcon icon={faInstagram} /></a>
         </div>
 
         <div className="creditos">
