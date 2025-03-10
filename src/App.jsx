@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { BrowserRouter, Route, Routes, Navigate  } from 'react-router'
 import './index.css'
 import './login.css'
 import { Home } from './pages/Home'
@@ -8,6 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/Registrohome" element={<Registrohome />} />
       </Routes>
