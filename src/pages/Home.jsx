@@ -1,8 +1,8 @@
 import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useNavigate } from 'react-router';
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router';
 
 export const Home = () => {
   useEffect(() => {
