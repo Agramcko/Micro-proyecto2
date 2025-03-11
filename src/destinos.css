@@ -1,0 +1,299 @@
+:root {
+    --main-color: #FD8103;
+    --black: #13131a;
+    --bg: #E9E9E8;
+    --border: .1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.homedestino {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/public/Imagenes/vista.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.homedestino .contenido {
+    max-width: 70rem;
+    min-height: 245px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+}
+
+.homedestino .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+}
+
+.homedestino .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.sabasnieves {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    background: var(--main-color);
+    background-size: cover;
+    background-position: center;
+}
+
+.sabasnieves .contenido {
+    max-width: 90rem;
+    min-height: 245px;
+    height: auto;
+    width: 850rem;
+    width: 650rem;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+    position: relative;
+    
+}
+
+.sabasnieves .contenido img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px; 
+    border-radius: 10%; 
+    height: 35rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25)
+}
+
+.sabasnieves .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.sabasnieves .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000000;
+    margin-left: 20px;
+}
+
+
+.humboldt {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    background: var(--main-color);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.humboldt .contenido {
+    max-width: 90rem;
+    min-height: 245px;
+    height: auto;
+    width: 850rem;
+    width: 650rem;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+    position: relative;
+    
+}
+
+.humboldt .contenido img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px; 
+    border-radius: 10%; 
+    height: 35rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25)
+}
+
+.humboldt .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+}
+
+.humboldt .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000000;
+    margin-left: 20px;
+}
+
+
+.Picooriental {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    background: var(--main-color);
+    background-size: cover;
+    background-position: center;
+}
+
+.Picooriental .contenido {
+    max-width: 90rem;
+    min-height: 245px;
+    height: auto;
+    width: 850rem;
+    width: 650rem;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+    position: relative;
+    
+}
+
+.Picooriental .contenido img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px; 
+    border-radius: 10%; 
+    height: 35rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25)
+}
+
+
+.Picooriental .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+}
+
+.Picooriental .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.piconaiguata {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    background: var(--main-color);
+    background-size: cover;
+    background-position: center;
+}
+
+.piconaiguata .contenido {
+    max-width: 90rem;
+    min-height: 245px;
+    height: auto;
+    width: 850rem;
+    width: 650rem;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+    position: relative;
+}
+
+.piconaiguata .contenido img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px; 
+    border-radius: 10%; 
+    height: 35rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25)
+}
+
+.piconaiguata .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+}
+
+.piconaiguata .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000000;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .humboldt, .Picooriental, .piconaiguata, .sabasnieves  {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .humboldt .contenido, .Picooriental .contenido, .piconaiguata .contenido, .sabasnieves .contenido {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    .humboldt .contenido img, .Picooriental .contenido img, .piconaiguata .contenido img, .sabasnieves .contenido img {
+        position: static;
+        transform: none;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .humboldt .contenido h3, .Picooriental .contenido h3, .piconaiguata .contenido h3, .sabasnieves .contenido h3 {
+        font-size: 4rem;
+    }
+
+    .humboldt .contenido p, .Picooriental .contenido p, .piconaiguata .contenido p, .sabasnieves .contenido p {
+        font-size: 1.6rem;
+    }
+
+    .homedestino {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .homedestino .contenido h3 {
+        font-size: 4.5rem;
+    }
+
+    .homedestino .contenido p {
+        font-size: 1.5rem;
+    }
+
+    .homedestino .contenido {
+        max-width: 40rem;
+        min-height: 150px;
+        height: auto;
+        width: 500px;
+        flex-shrink: 0;
+    }
+
+}

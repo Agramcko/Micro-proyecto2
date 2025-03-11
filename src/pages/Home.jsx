@@ -49,9 +49,9 @@ export const Home = () => {
             <img src="Imagenes/AvilaTours.png" alt="Foto de logo" className="imagenlogo" />
           </a>
           <nav className="navbar">
-            <a href="/Home">Inicio</a>
-            <a href="">Experiencias</a>
-            <a href="#Destinos">Destinos</a>
+            <a href="/home">Inicio</a>
+            <a href="#Experiencias">Experiencias</a>
+            <a href="/destinos">Destinos</a>
             <a href="#Reservas">Reservas</a>
             <a href="#Contacto">Contacto</a>
           </nav>
