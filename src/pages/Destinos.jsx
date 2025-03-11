@@ -139,8 +139,8 @@ export const Destinos = () => {
 
             <section className="piconaiguata" id="piconaiguata">
                 <div className="contenido">
-                <img src="Imagenes/Naiguata.webp" alt="Sabas Nieves" />
                     <h3>Pico Naiguata</h3>
+                    <img src="Imagenes/Naiguata.webp" alt="Sabas Nieves" />
                     <p>Rutas diarias</p>
                     <p>Meta: Pico Naiguatá</p>
                     <p>Dificultad: Difícil</p>
