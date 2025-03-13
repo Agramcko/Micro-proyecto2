@@ -53,7 +53,7 @@ export const Destinos = () => {
                     <a href="#Experiencias">Experiencias</a>
                     <a href="/destinos">Destinos</a>
                     <a href="#Reservas">Reservas</a>
-                    <a href="#Contacto">Contacto</a>
+                    <a href="/contactos">Contacto</a>
                 </nav>
 
                 <div className="icons">

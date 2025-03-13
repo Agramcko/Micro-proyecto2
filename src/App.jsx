@@ -5,6 +5,7 @@ import './destinos.css'
 import { Home } from './pages/Home'
 import { Registrohome } from './pages/Registrohome'
 import { Destinos } from './pages/Destinos'
+import { Contactos } from './pages/Contactos'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/Registrohome" element={<Registrohome />} />
         <Route path="/destinos" element={<Destinos />} />
+        <Route path="/contactos" element={<Contactos />} />
       </Routes>
 
       
