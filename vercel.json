@@ -2,6 +2,7 @@
     "rewrites": [
         { "source": "/home", "destination": "/index.html" },
         { "source": "/destinos", "destination": "/index.html" },
-        { "source": "/Registrohome", "destination": "/index.html" }
+        { "source": "/Registrohome", "destination": "/index.html" },
+        { "source": "/Contactos", "destination": "/index.html" }
     ]
 }
