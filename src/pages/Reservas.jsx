@@ -71,7 +71,9 @@ export const Reservacion = () => {
     <section className="homereservas" id="homereservas">
       <div className="contenido">
         <h3>Reservacion</h3>
-        <h1>listo?</h1>
+        <h1>¿Listo para tu próxima aventura? Reserva tu lugar en nuestras excursiones por el Parque Nacional El Ávila. 
+            Asegura tu cupo y prepárate para explorar paisajes impresionantes y crear recuerdos inolvidables. 
+            ¡No esperes más, haz tu reservación ahora y únete a nosotros en esta experiencia única!</h1>
         <p></p>
       </div>
     </section>
