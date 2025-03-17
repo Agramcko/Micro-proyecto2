@@ -40,7 +40,7 @@ export const Experiencias = () => {
   const navigate = useNavigate();
   const handleUserIconClick = () => {
     navigate('/Registrohome');
-    };
+  };
 
     return (
           <>

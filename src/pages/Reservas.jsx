@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 
-export const Reservacion = () => {
+export const Reservas = () => {
   useEffect(() => {
     const navbar = document.querySelector('.navbar');
     const searchForm = document.querySelector('.search-form');
