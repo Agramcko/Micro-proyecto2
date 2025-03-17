@@ -40,102 +40,102 @@ export const Contactos = () => {
   const navigate = useNavigate();
   const handleUserIconClick = () => {
     navigate('/Registrohome');
-    };
-
-    return (
-      <>
-        <header className="header">
-          <a href="#" className="logo">
-            <img src="Imagenes/AvilaTours.png" alt="Foto de logo" className="imagenlogo" />
-          </a>
-          <nav className="navbar">
-            <a href="/home">Inicio</a>
-            <a href="#Experiencias">Experiencias</a>
-            <a href="/destinos">Destinos</a>
-            <a href="#Reservas">Reservas</a>
-            <a href="/contactos">Contacto</a>
-          </nav>
-
-          <div className="icons">
-            <FontAwesomeIcon icon={faSearch} className="fas fa-search -bnt" id="search-btn" />
-            <FontAwesomeIcon icon={faUser} className="fas fa-user -bnt" id="user-btn" onClick={handleUserIconClick} />
-            <FontAwesomeIcon icon={faBars} className="fas fa-bars -bnt" id="menu-btn" />
-          </div>
-
-          <div className="search-form">
-            <input type="search" id="search-box" placeholder="Search here..." />
-            <label htmlFor="search-box" className="fas fa-search"></label>
-          </div>
-        </header>
-
-        <section className="homecontactos" id="homecontactos">
-          <div className="contenido">
-            <h3>Contactos/ <span> Inicio </span></h3>
-            <p></p>
-          </div>
-        </section>
-        
-        <section className="espacio">
-          <h1 className="barra">
-            <span></span>
-          </h1>
-        </section>
-
-        <section className="infocontactos" id="infocontactos">
-                <div className="contenido">
-                    <h3>Contactanos</h3>
-                    <p>Estamos para ayudarte</p>
-                    <div className="tlfcontactos" id="tlfcontactos">
-                        <p1>+58 424-999-9999</p1>
-                        <p2>AvilaTours@correo.unimet.edu.ve</p2>
-                    </div>
-                </div>
-
-            </section>
-
-            
-        <section className="espacio">
-          <h1 className="barra">
-            <span></span>
-          </h1>
-        </section>
-
-        <section className="commentcontactos" id="commentcontactos">
-                <div className="contenido">
-                    <h3>Escribenos!</h3>
-                    <p>dejanos saber tus inquitudes</p>
-                    <div className="tlfcontactos" id="tlfcontactos">
-                        <p1>Correo Electronico</p1>
-                        <p2>Mensaje</p2>
-                    </div>
-                </div>
-
-            </section>
-
-        <section className="espacio">
-          <h1 className="barra">
-            <span></span>
-          </h1>
-        </section>
-
-        <section className="footer">
-          <div className="redes">
-            <a href="#" className="fab fa-facebook-f">
-              <FontAwesomeIcon icon={faFacebookF} id='facebook' /></a>
-            <a href="#" className="fab fa-twitter">
-              <FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#" className="fab fa-youtube">
-              <FontAwesomeIcon icon={faYoutube} /></a>
-            <a href="#" className="fab fa-instagram">
-              <FontAwesomeIcon icon={faInstagram} /></a>
-          </div>
-
-          <div className="creditos">
-            Copyright © 2025 - <span>Universidad Metropolitana.</span> Todos los derechos reservados. | Privacy Policy |
-            Cookie Policy
-          </div>
-        </section>
-      </>
-    );
-
   };
+
+  return (
+    <>
+      <header className="header">
+        <a href="#" className="logo">
+          <img src="Imagenes/AvilaTours.png" alt="Foto de logo" className="imagenlogo" />
+        </a>
+        <nav className="navbar">
+          <a href="/home">Inicio</a>
+          <a href="#Experiencias">Experiencias</a>
+          <a href="/destinos">Destinos</a>
+          <a href="#Reservas">Reservas</a>
+          <a href="/contactos">Contacto</a>
+        </nav>
+
+        <div className="icons">
+          <FontAwesomeIcon icon={faSearch} className="fas fa-search -bnt" id="search-btn" />
+          <FontAwesomeIcon icon={faUser} className="fas fa-user -bnt" id="user-btn" onClick={handleUserIconClick} />
+          <FontAwesomeIcon icon={faBars} className="fas fa-bars -bnt" id="menu-btn" />
+        </div>
+
+        <div className="search-form">
+          <input type="search" id="search-box" placeholder="Search here..." />
+          <label htmlFor="search-box" className="fas fa-search"></label>
+        </div>
+      </header>
+
+      <section className="homecontactos" id="homecontactos">
+        <div className="contenido">
+          <h3>Contactos/ <span> Inicio </span></h3>
+          <p></p>
+        </div>
+      </section>
+
+      <section className="espacio">
+        <h1 className="barra">
+          <span></span>
+        </h1>
+      </section>
+
+      <section className="infocontactos" id="infocontactos">
+        <div className="contenido">
+          <h3>Contactanos</h3>
+          <p>Estamos para ayudarte</p>
+          <div className="tlfcontactos" id="tlfcontactos">
+            <p1>+58 424-999-9999</p1>
+            <p2>AvilaTours@correo.unimet.edu.ve</p2>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section className="espacio">
+        <h1 className="barra">
+          <span></span>
+        </h1>
+      </section>
+
+      <section className="commentcontactos" id="commentcontactos">
+        <div className="contenido">
+          <h3>Escribenos!</h3>
+          <p>dejanos saber tus inquitudes</p>
+          <div className="tlfcontactos" id="tlfcontactos">
+            <p1>Correo Electronico</p1>
+            <p2>Mensaje</p2>
+          </div>
+        </div>
+
+      </section>
+
+      <section className="espacio">
+        <h1 className="barra">
+          <span></span>
+        </h1>
+      </section>
+
+      <section className="footer">
+        <div className="redes">
+          <a href="#" className="fab fa-facebook-f">
+            <FontAwesomeIcon icon={faFacebookF} id='facebook' /></a>
+          <a href="#" className="fab fa-twitter">
+            <FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="#" className="fab fa-youtube">
+            <FontAwesomeIcon icon={faYoutube} /></a>
+          <a href="#" className="fab fa-instagram">
+            <FontAwesomeIcon icon={faInstagram} /></a>
+        </div>
+
+        <div className="creditos">
+          Copyright © 2025 - <span>Universidad Metropolitana.</span> Todos los derechos reservados. | Privacy Policy |
+          Cookie Policy
+        </div>
+      </section>
+    </>
+  );
+
+};
