@@ -400,19 +400,96 @@
     margin-left: 470px;
 }
 
+.nota p{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.infoexperiencias {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.experiencia {
+    width: 48%;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia h4 {
+    margin-top: 0;
+    color: #333;
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #f0f0f0; 
+    border-radius: 20px; 
+    color: #000000; 
+    font-size: 14px; 
+    vertical-align:middle;
+    text-align: center;
+    margin-bottom: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.linea-con-boton {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    margin: 20px 0; 
+}
+
+.linea {
+    flex: 1; 
+    height: 1px; 
+    background-color: #ccc; 
+    margin: 0 10px; 
+}
+
+.boton-ver-mas {
+    padding: 8px 20px;
+    background-color: #FD8103; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 14px; 
+    cursor: pointer; 
+}
+
+.experiencia p {
+    color: #666;
+    line-height: 1.6;
+}
+
 .homeexperiencias {
-    min-height: 100vh;
+    min-height: 140vh;
     display: flex;
     align-items: center;
     background: url(/public/Imagenes/Jardin.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    color:white;
+    margin-left: 20px;
+    background-position: left;
+    justify-content: left;
+    text-align: center;
 }
 
 .homeexperiencias .contenido {
-    max-width: 40rem;
+    max-width: 50rem;
     min-height: 150px;
     height: auto;
+    width: 500px;
     flex-shrink: 0;
     border-radius: 55px;
     background: rgba(217, 217, 217, 0.03);
@@ -425,6 +502,7 @@
     text-transform: uppercase;
     color: white;
     margin-left: 20px;
+
 }
 
 .homeexperiencias .contenido p {
@@ -433,6 +511,7 @@
     padding: 1rem 0;
     color: white;
     margin-left: 20px;
+    
 }
 
 @media (max-width: 768px) {
@@ -486,4 +565,210 @@
         flex-shrink: 0;
     }
 
+}
+
+.homereservas {
+    min-height: 140vh;
+    display: flex;
+    align-items: center;
+    background: url(/public/Imagenes/Jardin.jpg) no-repeat;
+    background-size: cover;
+    color:white;
+    margin-left: 20px;
+    background-position: left;
+    justify-content: left;
+    text-align: center;
+}
+
+.homereservas .contenido {
+    max-width: 50rem;
+    min-height: 150px;
+    height: auto;
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+}
+
+.homereservas .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.homereservas .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+
+.contactoreserva {
+    background-color: #e77402;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 55px;
+}
+
+.textoreserva {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ff8000dd;
+    box-shadow: #000000;
+    border-radius: 55px;
+}
+
+.contactoR1 h3, .contactoR2 h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.contactoR2 h3 {
+    font-weight: normal;
+    color: #666;
+}
+
+.datosreserva {
+    margin-top: 20px;
+}
+
+.formulario {
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 55px;
+    
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.opciones {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.opciones input[type="checkbox"] {
+    margin: 0;
+}
+
+.opciones label {
+    font-size: 12px;
+    color: #FD8103;
+}
+
+.button {
+    padding: 10px 50px;
+    background-color: #FD8103;
+    color: white;
+    border: none;
+    border-radius: 55px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    margin: 0 auto;
+    border: #000000;
+}
+
+.imagen {
+    width: 40vh;
+}
+
+.paypal {
+    display:flex;
+    gap:10px;
+    align-items: flex-start;
+}
+
+.masmenos{
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15px;
+    max-width: 20px;
+    align-items: center;
+}
+
+
+.inforeservas {
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    max-width: 90%;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.imagenlogos {
+    width: 8vh;
+}
+
+.infotexto {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.naranja {
+    background-color:  #FD8103;;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.naranja h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.blanco {
+    padding: 15px;
+}
+
+.cuadroblanco {
+    margin-bottom: 15px;
+}
+
+.cuadroblanco p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #FD8103;
+}
+
+.cuadroblanco p1 {
+    font-weight: bold;
+    color: #555;
 }

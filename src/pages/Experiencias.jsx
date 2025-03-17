@@ -77,8 +77,9 @@ export const Experiencias = () => {
             </section>
             
             <section className="espacio">
-              <h1 className="barra">
+              <h1 className="nota">
                 <span></span>
+                <p>Experiencia de nuestros estudiantes</p>
               </h1>
             </section>
     
@@ -91,6 +92,9 @@ export const Experiencias = () => {
           <h4>Diego Rivero</h4>
           <p>La experiencia fue increíble, desde la organización hasta la ejecución. Recomiendo a todos vivir esta aventura.</p>
         </div>
+        </section>
+
+        <section className="infoexperiencias">
         <div className="experiencia">
           <h4>Valentina Castillo</h4>
           <p>Una experiencia única que todos deberían vivir al menos una vez en la vida.</p>
@@ -100,6 +104,11 @@ export const Experiencias = () => {
           <p>Fue una experiencia que superó mis expectativas. Definitivamente volveré.</p>
         </div>
       </section>
+      <div class="linea-con-boton">
+    <span class="linea"></span>
+    <button class="boton-ver-mas">Ver más</button>
+    <span class="linea"></span>
+      </div>   
 
       <section className="espacio">
         <h1 className="barra">
