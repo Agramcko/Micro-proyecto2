@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, Navigate  } from 'react-router'
 import './index.css'
 import './login.css'
 import './destinos.css'
+
 import { Home } from './pages/Home'
 import { Registrohome } from './pages/Registrohome'
 import { Destinos } from './pages/Destinos'

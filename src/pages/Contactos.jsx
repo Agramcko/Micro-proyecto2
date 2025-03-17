@@ -81,11 +81,37 @@ export const Contactos = () => {
           </h1>
         </section>
 
-        <section className="infocotactos">
+        <section className="infocontactos" id="infocontactos">
+                <div className="contenido">
+                    <h3>Contactanos</h3>
+                    <p>Estamos para ayudarte</p>
+                    <div className="tlfcontactos" id="tlfcontactos">
+                        <p1>+58 424-999-9999</p1>
+                        <p2>AvilaTours@correo.unimet.edu.ve</p2>
+                    </div>
+                </div>
 
+            </section>
+
+            
+        <section className="espacio">
+          <h1 className="barra">
+            <span></span>
+          </h1>
         </section>
 
-          
+        <section className="commentcontactos" id="commentcontactos">
+                <div className="contenido">
+                    <h3>Escribenos!</h3>
+                    <p>dejanos saber tus inquitudes</p>
+                    <div className="tlfcontactos" id="tlfcontactos">
+                        <p1>Correo Electronico</p1>
+                        <p2>Mensaje</p2>
+                    </div>
+                </div>
+
+            </section>
+
         <section className="espacio">
           <h1 className="barra">
             <span></span>
