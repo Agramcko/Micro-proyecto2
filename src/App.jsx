@@ -7,6 +7,8 @@ import { Home } from './pages/Home'
 import { Registrohome } from './pages/Registrohome'
 import { Destinos } from './pages/Destinos'
 import { Contactos } from './pages/Contactos'
+import { Experiencias } from './pages/Experiencias'
+import { Reservacion } from './pages/Reservas'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/Registrohome" element={<Registrohome />} />
         <Route path="/destinos" element={<Destinos />} />
         <Route path="/contactos" element={<Contactos />} />
+        <Route path="/Experiencias" element={<Experiencias />} />
+        <Route path="/Reservas" element={<Reservacion />} />
       </Routes>
 
       
