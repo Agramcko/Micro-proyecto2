@@ -400,6 +400,40 @@
     margin-left: 470px;
 }
 
+.homeexperiencias {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/public/Imagenes/Jardin.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeexperiencias .contenido {
+    max-width: 40rem;
+    min-height: 150px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: rgba(217, 217, 217, 0.03);
+    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
+    backdrop-filter: blur(43.599998474121094px);
+}
+
+.homeexperiencias .contenido h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+}
+
+.homeexperiencias .contenido p {
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: white;
+    margin-left: 20px;
+}
 
 @media (max-width: 768px) {
     .humboldt, .Picooriental, .piconaiguata, .sabasnieves  {
