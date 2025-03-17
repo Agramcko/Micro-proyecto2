@@ -50,9 +50,9 @@ export const Destinos = () => {
                 </a>
                 <nav className="navbar">
                     <a href="/home">Inicio</a>
-                    <a href="/Experiencias">Experiencias</a>
+                    <a href="/experiencias">Experiencias</a>
                     <a href="/destinos">Destinos</a>
-                    <a href="/Reservas">Reservas</a>
+                    <a href="/reservas">Reservas</a>
                     <a href="/contactos">Contacto</a>
                 </nav>
 

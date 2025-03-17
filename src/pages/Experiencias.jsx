@@ -40,49 +40,49 @@ export const Experiencias = () => {
   const navigate = useNavigate();
   const handleUserIconClick = () => {
     navigate('/Registrohome');
-    };
+  };
 
-    return (
-          <>
-            <header className="header">
-              <a href="#" className="logo">
-                <img src="Imagenes/AvilaTours.png" alt="Foto de logo" className="imagenlogo" />
-              </a>
-              <nav className="navbar">
-                <a href="/home">Inicio</a>
-                <a href="/Experiencias">Experiencias</a>
-                <a href="/destinos">Destinos</a>
-                <a href="/Reservas">Reservas</a>
-                <a href="/contactos">Contacto</a>
-              </nav>
-    
-              <div className="icons">
-                <FontAwesomeIcon icon={faSearch} className="fas fa-search -bnt" id="search-btn" />
-                <FontAwesomeIcon icon={faUser} className="fas fa-user -bnt" id="user-btn" onClick={handleUserIconClick} />
-                <FontAwesomeIcon icon={faBars} className="fas fa-bars -bnt" id="menu-btn" />
-              </div>
-    
-              <div className="search-form">
-                <input type="search" id="search-box" placeholder="Search here..." />
-                <label htmlFor="search-box" className="fas fa-search"></label>
-              </div>
-            </header>
-    
-            <section className="homeexperiencias" id="homeexperiencias">
-              <div className="contenido">
-                <h3>Experiencias</h3>
-                <h1>Nos orgullece compartir algunas de las experiencias de nuestros participantes, quienes han vivido y disfrutados del parque nacional el Avila</h1>
-                <p></p>
-              </div>
-            </section>
-            
-            <section className="espacio">
-              <h1 className="barra">
-                <span></span>
-              </h1>
-            </section>
-    
-            <section className="infoexperiencias">
+  return (
+    <>
+      <header className="header">
+        <a href="#" className="logo">
+          <img src="Imagenes/AvilaTours.png" alt="Foto de logo" className="imagenlogo" />
+        </a>
+        <nav className="navbar">
+          <a href="/home">Inicio</a>
+          <a href="/experiencias">Experiencias</a>
+          <a href="/destinos">Destinos</a>
+          <a href="/reservas">Reservas</a>
+          <a href="/contactos">Contacto</a>
+        </nav>
+
+        <div className="icons">
+          <FontAwesomeIcon icon={faSearch} className="fas fa-search -bnt" id="search-btn" />
+          <FontAwesomeIcon icon={faUser} className="fas fa-user -bnt" id="user-btn" onClick={handleUserIconClick} />
+          <FontAwesomeIcon icon={faBars} className="fas fa-bars -bnt" id="menu-btn" />
+        </div>
+
+        <div className="search-form">
+          <input type="search" id="search-box" placeholder="Search here..." />
+          <label htmlFor="search-box" className="fas fa-search"></label>
+        </div>
+      </header>
+
+      <section className="homeexperiencias" id="homeexperiencias">
+        <div className="contenido">
+          <h3>Experiencias</h3>
+          <h1>Nos orgullece compartir algunas de las experiencias de nuestros participantes, quienes han vivido y disfrutados del parque nacional el Avila</h1>
+          <p></p>
+        </div>
+      </section>
+
+      <section className="espacio">
+        <h1 className="barra">
+          <span></span>
+        </h1>
+      </section>
+
+      <section className="infoexperiencias">
         <div className="experiencia">
           <h4>Lucas Gomez</h4>
           <p>Participar en la excursión al Parque Nacional El Ávila ha sido una experiencia enriquecedora que me permitió conectarme con la naturaleza y aprender sobre la importancia de la conservación.</p>

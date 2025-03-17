@@ -8,7 +8,7 @@ import { Registrohome } from './pages/Registrohome'
 import { Destinos } from './pages/Destinos'
 import { Contactos } from './pages/Contactos'
 import { Experiencias } from './pages/Experiencias'
-import { Reservacion } from './pages/Reservas'
+import { Reservas } from './pages/Reservas'
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
         <Route path="/Registrohome" element={<Registrohome />} />
         <Route path="/destinos" element={<Destinos />} />
         <Route path="/contactos" element={<Contactos />} />
-        <Route path="/Experiencias" element={<Experiencias />} />
-        <Route path="/Reservas" element={<Reservacion />} />
+        <Route path="/experiencias" element={<Experiencias />} />
+        <Route path="/reservas" element={<Reservas />} />
       </Routes>
 
       
