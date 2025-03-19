@@ -1,5 +1,5 @@
 import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faBars, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faEnvelope, faMailForward, faMailReplyAll, faPhone, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router';
@@ -81,35 +81,34 @@ export const Contactos = () => {
         </h1>
       </section>
 
-      <section className="infocontactos" id="infocontactos">
-        <div className="contenido">
-          <h3>Contactanos</h3>
-          <p>Estamos para ayudarte</p>
-          <div className="tlfcontactos" id="tlfcontactos">
-            <p1>+58 424-999-9999</p1>
-            <p2>AvilaTours@correo.unimet.edu.ve</p2>
+      <section className="contactos" id="contactos">
+        <div className= "container">
+          <div className="left-half">
+            <h1>CONTÁCTANOS</h1>
+            <p>Estámos para ayudarte</p>
+            <div className="contact-box">
+              <div className="phone-icon-text">
+                <FontAwesomeIcon icon={faPhone} className="icon" />
+                <span className= "text">+58 424 123 4567</span>
+              </div>
+              <div className="mail-icon-text">
+              <FontAwesomeIcon icon={faEnvelope} className="icon" />
+              <span className= "text">AvilaTours@correo.unimet.edu.ve</span>
+              </div>
+              
+            </div>            
           </div>
+
+          <div className="right-half">
+            <h2>ESCRIBENOS!</h2>
+            <p1>Dejanos saber tus inquietudes</p1>
+            <div classsName= "commentcontactos">
+            
+            
+                
+            </div>
+            </div>
         </div>
-
-      </section>
-
-
-      <section className="espacio">
-        <h1 className="barra">
-          <span></span>
-        </h1>
-      </section>
-
-      <section className="commentcontactos" id="commentcontactos">
-        <div className="contenido">
-          <h3>Escribenos!</h3>
-          <p>dejanos saber tus inquitudes</p>
-          <div className="tlfcontactos" id="tlfcontactos">
-            <p1>Correo Electronico</p1>
-            <p2>Mensaje</p2>
-          </div>
-        </div>
-
       </section>
 
       <section className="espacio">
