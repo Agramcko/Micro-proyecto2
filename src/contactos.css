@@ -51,12 +51,14 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: #FD8103;
+    height: 490px;
 }
 
 .right-half {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #f3f2f0;
+    height: 490px;
 }
 
 .contactos {
@@ -72,75 +74,63 @@
     font-size: 4rem;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-    margin-left: 40px;
+    margin-left: 175px;
     text-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     
 }
 .contactos .container p {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     line-height: 1.2;
     padding: 1rem 0;
     color: #ffffff;
-    margin-left: 90px;
+    margin-left: 213px;
     text-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
     
 }
 
 .phone-icon-text {
+    padding: center;
+    padding-top: 60px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    margin-left: 5%;
-    font-size: large;
+    margin-left: 100px;
+    font-size: 25px;
+    
 }
 
 .mail-icon-text {
+    padding: center;
+    padding-top: 50px;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    margin-left: 5%;
-    font-size: large;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    font-size: 25px;
 }
 
 .icon {
-    margin-right: 10px;
-    font-size: 18px;
+    margin-right: 40px;
+    font-size: 40px;
 }
 
-
-.infocontactos .contenido p2{
-    font-size: 2rem;
-    line-height: 3;
-    padding: 1rem 0;
-    color: #ffffff;
-    margin-left: 290px;
-    max-width: 65rem;
-    min-height: 245px;
-    width: 80%;
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 55px;
-    background: rgba(217, 217, 217, 0);
-    box-shadow: 0px 45px 50px 0px rgba(0, 0, 0, 0.25), 43.6px -43.6px 43.6px 0px rgba(165, 165, 165, 0.10) inset, -43.6px 43.6px 43.6px 0px rgba(255, 255, 255, 0.10) inset;
-    backdrop-filter: blur(43.599998474121094px);
-}
 
 .right-half h2 {
     font-size: 4rem;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
-    margin-left: 60px;
+    margin-left: 200px;
     margin-top: 20px;
     text-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contactos .container p1 {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     line-height: 1.2;
     padding: 1rem 0;
     color: #FD8103;
-    margin-left: 80px;
+    margin-left: 180px;
     text-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
     
     
@@ -161,4 +151,76 @@
     padding: 1rem 0;
     color:var(0, 0, 0);
     margin-left: 525px;
+}
+
+.commentcontactos input {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .commentcontactos button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #000000;
+    box-shadow: inset 0 0 0 2px #000000;
+    background-color: transparent;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .commentcontactos button:hover {
+    background-color: rgba(44, 133, 250, 0.644);
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="tlf"],
+textarea {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 16px;
+    
+}
+
+textarea {
+    resize: vertical; 
+    min-height: 150px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

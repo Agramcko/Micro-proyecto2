@@ -103,9 +103,53 @@ export const Contactos = () => {
             <h2>ESCRIBENOS!</h2>
             <p1>Dejanos saber tus inquietudes</p1>
             <div classsName= "commentcontactos">
-            
-            
+              <form>
+                <input
+                type="text" 
+                name='nombre'
+                id='nombre'
+                placeholder='Nombre' 
+                />
+              </form>
+
+              <form>
+                <input 
+                type="email"
+                name="correo"
+                id="correo" 
+                placeholder='Correo Electronico'
+                />
+              </form>
+
+              <form>
+                <input 
+                type="tlf"
+                name='telefono'
+                id='telefono'
+                placeholder='Numero de Telefono'
+                />
+              </form>
                 
+              <form>
+                <textarea 
+                name="mensaje" 
+                id="mensaje"
+                placeholder='Mensaje'>
+
+                </textarea>
+              </form>
+
+              <form>
+                <button type="submit">Enviar</button>
+
+              </form>
+
+                
+
+                
+
+                
+             
             </div>
             </div>
         </div>
