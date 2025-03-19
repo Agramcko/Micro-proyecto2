@@ -71,7 +71,9 @@ export const Contactos = () => {
       <section className="homecontactos" id="homecontactos">
         <div className="contenido">
           <h3>Contactos/ <span> Inicio </span></h3>
-          <p></p>
+          <p>No dudes en contactarnos, estámos para ayudarte
+            con cualquier tipo de inquietudes y dudas que tengas, solo déjanos saberlo!
+          </p>
         </div>
       </section>
 
